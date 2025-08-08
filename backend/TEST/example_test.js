@@ -104,7 +104,7 @@ describe('Update Function Test', () => {
     const res = {
       json: sinon.spy(),
       status: sinon.stub().returnsThis()
-    };
+    }; // teste
 
     // Call function
     await updateTask(req, res);
